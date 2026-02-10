@@ -1,8 +1,8 @@
 package com.foodretailor.bff.applications.homepage.usecase.api
 
+import com.foodretailor.bff.applications.homepage.model.api.Membership
 import com.foodretailor.bff.applications.homepage.model.api.Reward
 import com.foodretailor.bff.applications.homepage.model.api.Store
-import com.foodretailor.bff.applications.homepage.model.api.Membership
 
 fun interface GetHomePageDataUseCase {
 

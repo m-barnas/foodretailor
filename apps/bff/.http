@@ -1,0 +1,14 @@
+### Get home-page data
+GET http://localhost:8080/mobile-app/home-page
+Authorization: Bearer eyJhbGciOiJub25lIn0.eyJzdWIiOiJ1c2VyLTEyMyJ9.
+Accept: application/json
+
+### Get 403
+GET http://localhost:8080/desktop-app/home-page
+Authorization: Bearer eyJhbGciOiJub25lIn0.eyJzdWIiOiJ1c2VyLTEyMyJ9.
+Accept: application/json
+
+### Get 401
+GET http://localhost:8080/mobile-app/home-page
+Accept: application/json
+
